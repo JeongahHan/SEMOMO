@@ -13,25 +13,25 @@ public class WebConfig implements WebMvcConfigurer{
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		// TODO Auto-generated method stub
 		registry.addResourceHandler("/groupBoard/**")
-		.addResourceLocations("file:///C:/Temp/semo/groupBoard/");
+		.addResourceLocations("file:/Users/jeongahhan/Documents/semomoFile/semo/groupBoard/");
 		
 		registry.addResourceHandler("/groupBoard/editor/**")
-		.addResourceLocations("file:///C:/Temp/semo/groupBoard/editor/");
+		.addResourceLocations("file:/Users/jeongahhan/Documents/semomoFile/semo/groupBoard/editor/");
 		
 		registry.addResourceHandler("/groupPhoto/**")
-		.addResourceLocations("file:///C:/Temp/semo/groupPhoto/");
+		.addResourceLocations("file:/Users/jeongahhan/Documents/semomoFile/semo/groupPhoto/");
 		
 		registry.addResourceHandler("/group/**")
-		.addResourceLocations("file:///C:/Temp/semo/group/");
+		.addResourceLocations("file:/Users/jeongahhan/Documents/semomoFile/semo/group/");
 		
 		registry.addResourceHandler("/group/editor/**")
-		.addResourceLocations("file:///C:/Temp/semo/group/editor/");
+		.addResourceLocations("file:/Users/jeongahhan/Documents/semomoFile/semo/group/editor/");
 		
 		registry.addResourceHandler("/member/**")
-		.addResourceLocations("file:///C:/Temp/semo/member/");
+		.addResourceLocations("file:/Users/jeongahhan/Documents/semomoFile/semo/member/");
 		
 		registry.addResourceHandler("/feed/**")
-		.addResourceLocations("file:///C:/Temp/semo/feed/");
+		.addResourceLocations("file:/Users/jeongahhan/Documents/semomoFile/semo/feed/");
 	}
 	
 	@Bean

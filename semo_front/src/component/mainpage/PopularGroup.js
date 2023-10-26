@@ -24,26 +24,24 @@ const PopularGroup = () => {
       });
   }, []);
 
+  //배열 처리
+  useEffect(() => {
+    setStringGroupNo(groupNo.join(","));
+  }, [groupNo]);
 
-    //배열 처리
-    useEffect(() => {
-      setStringGroupNo(groupNo.join(","));
-    }, [groupNo]);
-  
-    useEffect(() => {
-      axios
-        .get("/group/groupLikeListDetail", {
-          params: { stringGroupNo: stringGroupNo },
-        })
-        .then((res) => {
-          setGroupDetail(res.data); // 서버에서 전체 데이터 배열을 반환하므로 그대로 설정
-        })
-        .catch((res) => {
-          console.log(res.response.status);
-        });
-    }, [stringGroupNo]);
+  useEffect(() => {
+    axios
+      .get("/group/groupLikeListDetail", {
+        params: { stringGroupNo: stringGroupNo },
+      })
+      .then((res) => {
+        setGroupDetail(res.data); // 서버에서 전체 데이터 배열을 반환하므로 그대로 설정
+      })
+      .catch((res) => {
+        console.log(res.response.status);
+      });
+  }, [stringGroupNo]);
 
-    
   //groupNo[0] //번호를 조회해와서
   //groupDetail 배열에서 groupNo[i]번째 값의 groupDetail.groupNo 찾기
   //setGroupMapping[0]에 넣기
@@ -59,7 +57,6 @@ const PopularGroup = () => {
     }
     setGroupMapping(newGroupMapping);
   }, [groupNo, groupDetail]);
-
 
   return (
     <div className="popularGroup">
