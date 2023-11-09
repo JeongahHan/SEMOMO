@@ -78,18 +78,10 @@
 내 기능
 -----------
 **1.전체적인 front구성**
+**2.메인 내 찜 많은 소모임 Top10 기능 구현**
 <p align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/cb2a56af-c834-48ed-ab43-ef526aeb98c3">
+<img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/4818e186-bc4a-4f6b-a5a4-296824e653aa">
 </p>
-<br>
-<br>
-<br>
-<br>
-
-**2.메인 내 찜 많은 상품 Top20 기능 구현**
-<div align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/8fc3b1e2-0b42-43f4-b62e-7eb84d115679">
-</div>
 <br>
 <br>
 <br>
