@@ -81,6 +81,7 @@
 <br>
 **2.메인 내 찜 많은 소모임 Top10 기능 구현 > 클릭 시 , 해당 소모임으로 이동**
 <p align-="center">
+<img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/5b1c063f-af84-4fd6-859c-def09b1660cc">
 <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/faf81644-0fb2-4074-9c0c-ae52d64f31ed">
 </p>
 <br>
