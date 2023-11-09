@@ -77,7 +77,7 @@
 
 내 기능
 -----------
-**1.메인페이지** 
+**1.메인페이지 및 전체적인 Front 구성** 
 <br>
 
 **2.메인 내 찜 많은 소모임 Top10 기능 구현 > 클릭 시 , 해당 소모임으로 이동**
@@ -90,7 +90,7 @@
 <br>
 <br>
 
-**3.지역별 생성된 소모임 검색 기능 구현**
+**3.지역 클릭 시, 지역별 생성된 소모임 확인**
 <p align-="center">
   <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/d5065e88-e5f8-4c83-b894-fb88f7999279">
 </p>
@@ -99,30 +99,38 @@
 <br>
 <br>
 
-**4.독서후기게시판 제작**
-+ 게시판 글 작성 / 읽기 / 수정 / 삭제
-+ 게시판 내 (제목,내용,작성자) 분류하여 검색 기능 구현
+**4.마이페이지 : 내가 참여하고 있는 모임 / 내가 찜한 모임**
 <br>
 <p align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/832844cb-7968-4217-b6e4-534741ef4e6e">
+  <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/31be4ace-90e5-40d4-b382-a372cba11f0a">
 </p>
 <br>
 <br>
 <br>
 <br>
 
-**5.댓글 / 좋아요 기능구현**
-+ 댓글 작성 / 읽기 / 수정 / 삭제
-+ 댓글 좋아요 / 좋아요 취소
-+ 유저한테 쪽지보내기 기능 연결 
+
+**5.마이페이지 : 내 정보 수정**
 <br>
 <p align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/eb69fd7c-993e-4e3f-9d84-dd9acf77c6f3">
+  <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/880eaa8c-f8f4-4097-82d3-564c72efb1c9">
 </p>
 <br>
 <br>
 <br>
 <br>
+
+**6.마이페이지 : 내 피드 수정**
++ 내 관심사 수정
+<br>
+<p align-="center">
+  <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/d613461e-b03f-4e85-bb3b-eb1ef690f4e4">
+</p>
+<br>
+<br>
+<br>
+<br>
+
 
 **6. 모든 글 통합검색**
 + 통합검색 내 필터기능구현 (중고책방 게시판 글  / 독서노트 게시판 글)
@@ -139,16 +147,20 @@
 <br>
 <br>
 
-**7. 회사소개**
-+ 스크롤에 반응하는 소개 페이지 제작
+**7. 소모임 실시간 채팅 기능**
++ 안읽은 메세지 있을 경우 : New 알람 > 확인 후 New 사라짐
++ 웹소켓으로 실시간 채팅 기능 구현
 <br>
 <p align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/c24d6bbd-4ee8-45f6-9425-69c08a6a4812">
+  <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/2d2d59f4-de0c-43dd-81a3-b5ab8f4a2fda">
+  <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/19f246ab-5ace-43e9-ac6e-08965f37cf96">
 </p>
 <br>
 <br>
 <br>
 <br>
+
+
 
 
 
