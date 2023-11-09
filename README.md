@@ -79,7 +79,7 @@
 -----------
 **1.전체적인 front구성** 
 <br>
-**2.메인 내 찜 많은 소모임 Top10 기능 구현**
+**2.메인 내 찜 많은 소모임 Top10 기능 구현 > 클릭 시 , 해당 소모임으로 이동**
 <p align-="center">
 <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/4818e186-bc4a-4f6b-a5a4-296824e653aa">
 </p>
@@ -88,9 +88,9 @@
 <br>
 <br>
 
-**3.외부 베스트셀러 API가져오기**
+**3.지역별 생성된 소모임 검색 기능 구현**
 <p align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/be150ba3-ea71-4671-ab00-65077f53fbf2">
+  <img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/d5065e88-e5f8-4c83-b894-fb88f7999279">
 </p>
 <br>
 <br>
