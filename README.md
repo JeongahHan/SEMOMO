@@ -47,7 +47,7 @@
 <br>
 
 
-<img width="841" alt="image" src="https://github.com/JeongahHan/SEMOMO/assets/142190043/2a3287f4-60b3-4c77-929c-90df11bb161c">
+<img width="1000" alt="image" src="https://github.com/JeongahHan/SEMOMO/assets/142190043/2a3287f4-60b3-4c77-929c-90df11bb161c">
 
 
 
@@ -56,20 +56,16 @@
 
 **5. ERD**
 
-![image](https://github.com/JeongahHan/Greenbook/assets/142190043/c9578c10-e833-4bb9-adf8-19b50ff569e5)
+<img width="1000" alt="image" src="https://github.com/JeongahHan/SEMOMO/assets/142190043/6eab170a-1f71-43a5-b492-12a0e143a20d">
+
 
 
 <br>
 <br>
 
 **6. 참여인원 및 역할분담**
->|이름|구현기능|
->|---|---|
->|한정아<br>(본인)|<img width="650" alt="image" src="https://github.com/JeongahHan/Greenbook/assets/142190043/a61fe489-6f33-4cc1-bacf-4a49d3ddfed3">|
->|이유나|<img width="650" alt="image" src="https://github.com/JeongahHan/Greenbook/assets/142190043/5d9fa025-5bc6-4b54-8a24-99dc95a2baf8">|
->|최명훈|<img width="650" alt="image" src="https://github.com/JeongahHan/Greenbook/assets/142190043/de54c6eb-0a32-4296-bc9d-e345dc83b343">|
->|유재욱|<img width="650" alt="image" src="https://github.com/JeongahHan/Greenbook/assets/142190043/a5cebb3a-e3ae-4626-8d4f-a87bb4a1608e">|
->|송슬기|<img width="650" alt="image" src="https://github.com/JeongahHan/Greenbook/assets/142190043/e175d855-31da-47d9-9fb4-20da78e76207">|
+<img width="1000" alt="image" src="https://github.com/JeongahHan/SEMOMO/assets/142190043/f404cc2e-cba2-48b3-88fe-23c94b71d393">
+
 
 <br>
 <br>
