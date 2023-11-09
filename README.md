@@ -77,16 +77,17 @@
 
 내 기능
 -----------
-**1.전체적인 front구성** 
+**1.웹 전체적인 front구성** 
 <br>
 **2.메인 내 찜 많은 소모임 Top10 기능 구현 > 클릭 시 , 해당 소모임으로 이동**
 <p align-="center">
-<img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/4818e186-bc4a-4f6b-a5a4-296824e653aa">
+<img src="https://github.com/JeongahHan/SEMOMO/assets/142190043/5a48dbf5-51ae-443b-be44-613d29913b16">
 </p>
 <br>
 <br>
 <br>
 <br>
+
 
 **3.지역별 생성된 소모임 검색 기능 구현**
 <p align-="center">
