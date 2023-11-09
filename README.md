@@ -132,21 +132,6 @@
 <br>
 
 
-**6. 모든 글 통합검색**
-+ 통합검색 내 필터기능구현 (중고책방 게시판 글  / 독서노트 게시판 글)
-+ 검색 항목 없을 시 , 이전으로 돌아가기
-<br>
-<p align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/647bbc31-453d-49bb-b559-9f18b3a9f269">
-</p>
-<p align-="center">
-  <img src="https://github.com/JeongahHan/Greenbook/assets/142190043/9c3b2250-c965-43aa-802f-0a55ddcf74a6">
-</p>
-<br>
-<br>
-<br>
-<br>
-
 **7. 소모임 실시간 채팅 기능**
 + 안읽은 메세지 있을 경우 : New 알람 > 확인 후 New 사라짐
 + 웹소켓으로 실시간 채팅 기능 구현
