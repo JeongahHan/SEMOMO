@@ -56,7 +56,7 @@
 
 **5. ERD**
 
-<img width="1000" alt="image" src="https://github.com/JeongahHan/SEMOMO/assets/142190043/6eab170a-1f71-43a5-b492-12a0e143a20d">
+<img width="1000" alt="image" src="https://github.com/JeongahHan/SEMOMO/assets/142190043/148c930c-de97-4864-81a7-6300c964d83e">
 
 
 
