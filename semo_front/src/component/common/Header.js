@@ -22,96 +22,35 @@ const Header = (props) => {
   let headerWrapHeight = {};
   let headerPosition = {};
 
-  if (location.pathname.includes("/login")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/admin")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/login")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/join")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/group")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/groupBoard")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/notice")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/meeting")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/feed")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/page")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/mypage")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/chat")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/searchresult")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/lounge")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
-  if (location.pathname.includes("/local")) {
-    headerStyle = { color: "#220895" };
-    headerBackgroundColor = { backgroundColor: "#fff" };
-    headerWrapHeight = { height: "60px" };
-    headerPosition = { position: "absolute" };
-  }
+  const commonStyles = {
+    headerStyle: { color: "#220895" },
+    headerBackgroundColor: { backgroundColor: "#fff" },
+    headerWrapHeight: { height: "60px" },
+    headerPosition: { position: "absolute" },
+  };
+
+  const pathnames = [
+    "/login",
+    "/admin",
+    "/join",
+    "/group",
+    "/groupBoard",
+    "/notice",
+    "/meeting",
+    "/feed",
+    "/page",
+    "/mypage",
+    "/chat",
+    "/searchresult",
+    "/lounge",
+    "/local",
+  ];
+
+  pathnames.forEach((path) => {
+    if (location.pathname.includes(path)) {
+      Object.assign(commonStyles);
+    }
+  });
 
   return (
     <header style={headerWrapHeight}>
@@ -167,51 +106,28 @@ const Navi = (props) => {
 
   let naviStyle = {};
 
-  if (location.pathname.includes("/login")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/admin")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/login")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/join")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/group")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/groupBoard")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/notice")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/meeting")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/feed")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/page")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/mypage")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/chat")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/searchresult")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/lounge")) {
-    naviStyle = { color: "#220895" };
-  }
-  if (location.pathname.includes("/local")) {
-    naviStyle = { color: "#220895" };
-  }
+  const pathnames = [
+    "/login",
+    "/admin",
+    "/join",
+    "/group",
+    "/groupBoard",
+    "/notice",
+    "/meeting",
+    "/feed",
+    "/page",
+    "/mypage",
+    "/chat",
+    "/searchresult",
+    "/lounge",
+    "/local",
+  ];
+
+  pathnames.forEach((path) => {
+    if (location.pathname.includes(path)) {
+      naviStyle = { color: "#220895" };
+    }
+  });
 
   return (
     <div className="nav">
